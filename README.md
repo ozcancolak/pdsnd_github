@@ -2,7 +2,7 @@
 01.09.2020
 
 ### Project Title
-BikeShare Analysis Project 
+BikeShare Analysis Project
 
 ### Description
 Project is about the analysis of the bikeshare acitivities
@@ -11,4 +11,4 @@ Project is about the analysis of the bikeshare acitivities
 .py and .csv files
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity Course Materials
