@@ -96,18 +96,18 @@ def time_stats(df):
 
 
     # TO DO: display the most common month
-    most_popular_month = df['month'].mode()[0]
-    print("Most popular month of bikeshare is:" , most_popular_month)
+    popular_month = df['month'].mode()[0]
+    print("Most popular month of bikeshare is:" , popular_month)
 
 
     # TO DO: display the most common day of week
-    most_popular_week_day = df['day_of_week'].mode()[0]
-    print("Most popular week day of bikehare is:" , most_popular_week_day)
+    popular_week_day = df['day_of_week'].mode()[0]
+    print("Most popular week day of bikehare is:" , popular_week_day)
 
 
     # TO DO: display the most common start hour
-    most_popular_hour = df['hour'].mode()[0]
-    print("Most popular hour of bikeshare is:" , most_popular_hour)
+    popular_hour = df['hour'].mode()[0]
+    print("Most popular hour of bikeshare is:" , popular_hour)
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -122,17 +122,17 @@ def station_stats(df):
     start_time = time.time()
 
    # TO DO: display most commonly used start station
-    most_popular_start_station = df['Start Station'].mode()[0]
-    print("Most popular start station is:" , most_popular_start_station)
+    popular_start_station = df['Start Station'].mode()[0]
+    print("Most popular start station is:" , popular_start_station)
 
     # TO DO: display most commonly used end station
-    most_popular_end_station = df['End Station'].mode()[0]
-    print("Most popular end station is:" , most_popular_end_station)
+    popular_end_station = df['End Station'].mode()[0]
+    print("Most popular end station is:" , popular_end_station)
 
     # TO DO: display most frequent combination of start station and end station trip
     df['Route'] = df['Start Station'] + ' / ' + df['End Station']
-    most_popular_start_end_station_combination = df['Route'].mode()[0]
-    print("Most popular start&end station combination is:" , most_popular_start_end_station_combination)
+    popular_start_end_station_combination = df['Route'].mode()[0]
+    print("Most popular start&end station combination is:" , popular_start_end_station_combination)
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -146,12 +146,10 @@ def trip_duration_stats(df):
     start_time = time.time()
 
     # TO DO: display total travel time
-    total_duration = df['Trip Duration'].sum()
-    print('Total travel time is:', total_duration)
+    print('Total travel time is:', df['Trip Duration'].sum())
 
     # TO DO: display mean travel time
-    mean_trip_duration = df['Trip Duration'].mean()
-    print('Mean travel time is:', mean_trip_duration)
+    print('Mean travel time is:', df['Trip Duration'].mean())
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
