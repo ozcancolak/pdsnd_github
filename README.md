@@ -12,3 +12,6 @@ Project is about the analysis of the bikeshare acitivities
 
 ### Credits
 Udacity Course Materials
+
+### Project Owner
+Ozcan Colak
