@@ -2,7 +2,7 @@
 01.09.2020
 
 ### Project Title
-BikeShare Project
+BikeShare Analysis Project 
 
 ### Description
 Project is about the analysis of the bikeshare acitivities
