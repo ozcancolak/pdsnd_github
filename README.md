@@ -15,3 +15,6 @@ Udacity Course Materials
 
 ### Project Owner
 Ozcan Colak
+
+### Project Goal
+To make analysis about bike share, search for trends and make predictions 
